@@ -42,4 +42,5 @@ Este projeto está licenciado sob a licença GNU. Consulte o arquivo `LICENSE` p
 ## Doações
 
 Se este script facilitou a sua via, considere uma doação!
+
 [![donate](https://brianmacdonald.github.io/Ethonate/svg/eth-donate-blue.svg)](https://brianmacdonald.github.io/Ethonate/address#0xc70f35d3579e631b6a824855f898b27c13fab481)
