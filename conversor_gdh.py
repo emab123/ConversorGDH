@@ -33,8 +33,8 @@ def open_file():
 
 def close():
     global begin, end
-    begin = arrow.get(cal_1.get_date())
-    end = arrow.get(cal_2.get_date())
+    begin = arrow.get(cal_1.get_date()).replace(tzinfo='-03:00')
+    end = arrow.get(cal_2.get_date()).replace(tzinfo='-03:00')
     my_w.destroy()
 
 b3=tk.Button(my_w,text='Selecione arquivo HTML da grade de horarios', command=lambda:open_file())
