@@ -1,0 +1,5 @@
+arrow==1.2.3
+beautifulsoup4==4.11.2
+ics==0.7.2
+pandas==2.2.1
+tkcalendar==1.6.1
