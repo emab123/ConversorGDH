@@ -39,7 +39,7 @@ Contribuições são bem-vindas! Se você encontrou algum problema ou tem sugest
 
 <p align="center">
    Se este script facilitou a sua via, considere uma doação! <br />
-   Etherereum: <br />
+   Ethereum: <br />
    <img alt="0xc70f35d3579e631b6a824855f898b27c13fab481" src="./.github/Ethereum.png"> <br />
    0xc70f35d3579e631b6a824855f898b27c13fab481 <br />
 </p>
