@@ -87,6 +87,5 @@ for i in range(Timetable.shape[1]):
             c.events.add(e)
         j = j + 1    
     
-
-with fd.asksaveasfile(initialfile = 'AulasUFSC.ics', defaultextension=".ics",filetypes=[("All Files","*.*"),("Calendar","*.ics")]) as f:
+with fd.asksaveasfile(initialfile = 'AulasUFSC.ics', defaultextension=".ics",filetypes=[("Calendar","*.ics"),("All Files","*.*")]) as f:
     f.writelines(c.serialize())
