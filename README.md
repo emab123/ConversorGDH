@@ -35,17 +35,35 @@ O Conversor GDH (Grade de Horários) é uma ferramenta em Python desenvolvida pa
 
 Contribuições são bem-vindas! Se você encontrou algum problema ou tem sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Doações
-
-<p align="center">
-   Se este script facilitou a sua via, considere uma doação! <br />
-   Ethereum: <br />
-   <img alt="0xc70f35d3579e631b6a824855f898b27c13fab481" src="./.github/Ethereum.png"> <br />
-   0xc70f35d3579e631b6a824855f898b27c13fab481 <br />
-</p>
-
----
-
 ### Licença
 
 Este projeto está licenciado sob a licença GNU. Consulte o arquivo `LICENSE` para obter mais detalhes.
+
+---
+
+<p>
+   <table style="undefined; width: 200px" align="center">
+   <colgroup>
+      <col style="width: 220px">
+      <col style="width: 220px">
+   </colgroup>
+   <thead>
+      <tr>
+         <th colspan="2">Se este script facilitou a sua via, considere uma doação!</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Ethereum</td>
+         <td>PIX<br></td>
+      </tr>
+      <tr>
+         <td><img alt="0xc70f35d3579e631b6a824855f898b27c13fab481" src="./.github/Ethereum.png " width="200" height="200"></td>
+         <td><img alt="0xc70f35d3579e631b6a824855f898b27c13fab481" src="./.github/PIX.png" width="200" height="200"></td>
+      </tr>
+      <tr>
+         <td>0xc70f35d3579e631b6a8<br/>24855f898b27c13fab481</td>
+         <td>00020126580014BR.GOV.<br/>BCB.PIX01368305270b-a<br/>962-47ef-869a-2255357<br/>c44dc5204000053039865<br/>802BR5925Eric Marcel <br/>Andrade Blies6009SAO <br/>PAULO62140510qgNBKJwY<br/>86630488EA</td>
+      </tr>
+   </tbody>
+</p>
