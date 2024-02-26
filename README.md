@@ -37,7 +37,7 @@ Contribuições são bem-vindas! Se você encontrou algum problema ou tem sugest
 
 ### Licença
 
-Este projeto está licenciado sob a licença GNU. Consulte o arquivo `LICENSE` para obter mais detalhes.
+Este projeto está licenciado sob a licença GNU GPL 3.0. Consulte o arquivo `LICENSE` para obter mais detalhes.
 
 ---
 
