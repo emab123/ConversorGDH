@@ -90,4 +90,4 @@ for i in range(Timetable.shape[1]):
 with fd.asksaveasfile(initialfile = 'AulasUFSC.ics', defaultextension=".ics",filetypes=[("Calendar","*.ics"),("All Files","*.*")]) as f:
     f.writelines(c.serialize())
 
-print('\n\n\n Success!')
+print('\n\n\nSuccess!\n\n\n')
