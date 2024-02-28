@@ -33,7 +33,8 @@ O Conversor GDH (Grade de Horários) é uma ferramenta em Python desenvolvida pa
 
 <br>
 
-   >Obs.: O Google Calendar tem um bug conhecido com a recorrência do evento ao arrastar o arquivo ICS para a tela principal.
+   > [!NOTE]
+   >O Google Calendar tem um bug conhecido com a recorrência do evento ao arrastar o arquivo ICS para a tela principal.
    >
    >Para melhores resultados, recomenda-se seguir o seguintes passos:
    > 1. Criar uma nova agenda (Menu a esquerda - Outros calendarios - Botão "+" - Criar nova agenda);
