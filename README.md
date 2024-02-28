@@ -6,7 +6,7 @@ O Conversor GDH (Grade de Horários) é uma ferramenta em Python desenvolvida pa
 
 1. **Baixe a página HTML da grade de horários do CAGR da UFSC**:
    - No CAGR, clique no botão de imprimir grade de horários.
-   - Salve a página HTML baixada em seu computador.
+   - Baixe a página HTML em seu computador.
 
 2. **Instale as dependências**:
    - Antes de executar o script, é necessário instalar as dependências listadas no arquivo `requirements.txt`.
