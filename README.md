@@ -31,11 +31,23 @@ O Conversor GDH (Grade de Horários) é uma ferramenta em Python desenvolvida pa
    - Após clicar em "Gerar ICS", o arquivo ICS será criado no local especificado na interface gráfica.
    - Você pode importar esse arquivo ICS em seu aplicativo de calendário preferido para visualizar as aulas.
 
+<br>
+
+   >Obs.: O Google Calendar tem um bug conhecido com a recorrência do evento ao arrastar o arquivo ICS para a tela principal.
+   >
+   >Para melhores resultados, recomenda-se seguir o seguintes passos:
+   > 1. Criar uma nova agenda (Menu a esquerda - Outros calendarios - Botão "+" - Criar nova agenda);
+   > 2. Nomear a nova agenda (Ex.: Aulas UFSC) e salvar a nova agenda;
+   > 3. Clicar em importar (Menu a esquerda);
+   > 4. Selecionar o arquivo ICS e selecionar a nova agenda criada como destino.
+
+<br>
+
 ## Contribuindo
 
 Contribuições são bem-vindas! Se você encontrou algum problema ou tem sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-### Licença
+## Licença
 
 Este projeto está licenciado sob a licença GNU GPL 3.0. Consulte o arquivo `LICENSE` para obter mais detalhes.
 
