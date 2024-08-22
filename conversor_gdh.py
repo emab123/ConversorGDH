@@ -72,11 +72,13 @@ for i in range(Timetable.shape[1]):
             print('Event!')
             e = Event()
             e.name = str(Subjects['NOME DA DISCIPLINA'].get(str(Timetable.iloc[j,i])[:7]))+' - '+str(Timetable.iloc[j,i])[:7]
-            time = arrow.get(str(Timetable.index[j])[:5],'HH:mm').shift(minutes=20).time() #create an arrow object for the start time
+            if j < 5: unoficial_delay = 20
+            else: unoficial_delay = 0
+            time = arrow.get(str(Timetable.index[j])[:5],'HH:mm').shift(minutes=unoficial_delay).time() #create an arrow object for the start time
             e.begin = begin.replace(hour=time.hour, minute=time.minute).shift(days=i)
             for k in range (12):
                 if Timetable.iloc[j+k,i] != Timetable.iloc[j,i]: 
-                    time = arrow.get(str(Timetable.index[j+k-1]),'HH:mm').shift(minutes=70).time()
+                    time = arrow.get(str(Timetable.index[j+k-1]),'HH:mm').shift(minutes=50+unoficial_delay).time()
                     e.end = begin.replace(hour=time.hour, minute=time.minute).shift(days=i)
                     e.location = str(Timetable.iloc[j,i])[-8:]
                     e.description = 'Turma: ' + str(Subjects['TURMA'].get(str(Timetable.iloc[j,i])[:7]))+' | Professor: ' + str(Subjects['PROFESSOR'].get(str(Timetable.iloc[j,i])[:7]))
