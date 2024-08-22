@@ -28,7 +28,7 @@ l2.grid(row=5,column=3,columnspan=2, rowspan=1)
 
 def open_file():
     global filename
-    filename = fd.askopenfilename(filetypes=(("HTML Files","*.htm"),))
+    filename = fd.askopenfilename(filetypes=(("HTML Files","*.htm", "*.html"),))
     l3.config(text=filename,bg='green')
 
 def close():
